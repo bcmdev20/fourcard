@@ -1,0 +1,63 @@
+// ****VARIABLES****
+
+//****BACKGROUND****
+
+$background: hsl(0, 0, 98%);
+
+// ****COLOR CARDS****
+
+$card1: hsl(180, 62%, 55%);
+$card2: hsl(0, 78%, 62%);
+$card3: hsl(34, 97%, 64%);
+$card4: hsl(212, 86%, 64%);
+
+//****COLOR TEXT****
+
+$color-title: hsl(234, 12%, 34%);
+$color-text: hsl(229, 6%, 66%);
+
+// ****COLOR BORDER CARD****
+
+$border-color: hsl(175, 10%, 80%);
+
+// ****TYPOGRAPHY****
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+// ****WEIGTH FONT****
+// ****SIZE****
+$size-title1: 2.5rem;
+$size-title2: 1.2rem;
+$size-text: 0.8rem;
+
+@mixin styleCard {
+  box-shadow: 0px 5px 25px $border-color;
+  border-radius: 5px;
+  width: 350px;
+  padding: 30px;
+}
+
+@mixin imgCard {
+  float: right;
+  margin-top: 35px;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: $background;
+  @media (max-width: 1440px) {
+    main {
+      padding: 50px 0;
+    }
+  }
+}
