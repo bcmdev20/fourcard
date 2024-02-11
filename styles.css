@@ -20,11 +20,6 @@ body {
     padding: 50px 0;
   }
 }
-@media (max-width: 700px) {
-  body {
-    overflow-x: hidden;
-  }
-}
 
 @media (max-width: 1920px) {
   header {
@@ -53,7 +48,6 @@ body {
     max-width: 500px;
   }
   header h1 {
-    width: 500px;
     font-size: 1.7rem;
   }
   header .text-title {
