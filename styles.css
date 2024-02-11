@@ -20,6 +20,11 @@ body {
     padding: 50px 0;
   }
 }
+@media (max-width: 680px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 
 @media (max-width: 1920px) {
   header {
@@ -127,7 +132,7 @@ body {
     gap: 30px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .card-container {
     display: flex;
     flex-direction: column;
